@@ -1,0 +1,5 @@
+1 input from dynamobd or file
+2. scrapting
+3. post processing
+4. comparision
+5. push to dynamodb or a file

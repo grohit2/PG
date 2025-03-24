@@ -94,7 +94,7 @@
             ]
         },
         {
-            "bill_no": "12",
+            "bill_no": "",
             "bill_date": "19-MAR-2025",
             "test_name": "ELECTROLYTES SERUM",
             "status": "1",
@@ -123,7 +123,7 @@
             ]
         },
         {
-            "bill_no": "3",
+            "bill_no": "",
             "bill_date": "19-MAR-2025",
             "test_name": "UREA SERUM",
             "status": "1",
@@ -138,7 +138,7 @@
             ]
         },
         {
-            "bill_no": "1",
+            "bill_no": "",
             "bill_date": "19-MAR-2025",
             "test_name": "CREATININE SERUM",
             "status": "1",
@@ -238,7 +238,7 @@
             ]
         },
         {
-            "bill_no": "11",
+            "bill_no": "",
             "bill_date": "20-MAR-2025",
             "test_name": "ELECTROLYTES SERUM",
             "status": "1",
@@ -267,7 +267,7 @@
             ]
         },
         {
-            "bill_no": "3",
+            "bill_no": "",
             "bill_date": "20-MAR-2025",
             "test_name": "UREA SERUM",
             "status": "1",
@@ -282,7 +282,7 @@
             ]
         },
         {
-            "bill_no": "1",
+            "bill_no": "",
             "bill_date": "20-MAR-2025",
             "test_name": "CREATININE SERUM",
             "status": "1",
@@ -326,7 +326,7 @@
             ]
         },
         {
-            "bill_no": "3",
+            "bill_no": "",
             "bill_date": "21-MAR-2025",
             "test_name": "LIPID PROFILE",
             "status": "1",
@@ -369,7 +369,7 @@
             ]
         },
         {
-            "bill_no": "5",
+            "bill_no": "",
             "bill_date": "21-MAR-2025",
             "test_name": "LIVER FUNCTION TEST",
             "status": "1",
@@ -438,7 +438,95 @@
                     "range": "1.39-2.23"
                 }
             ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "21-MAR-2025",
+            "test_name": "HB A1C  HPLC METHOD",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "GLYCATED HAEMOGLOBIN",
+                    "result": "6.9",
+                    "units": "%",
+                    "range": "4.5 - 6.5 % Normal range6.6 - 7 % Diabetic range7.1 - 9 % Poor Diabetic Control>9 % Very Poor Diabetic Control"
+                }
+            ]
+        },
+        {
+            "bill_no": "5207041365",
+            "bill_date": "21-MAR-2025",
+            "test_name": "BLOOD GROUPING AND RH TYPING",
+            "status": "Authenticated",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "BLOOD GROUP",
+                    "result": "O POSITIVE",
+                    "units": "",
+                    "range": ""
+                }
+            ]
+        },
+        {
+            "bill_no": "5207048292",
+            "bill_date": "24-MAR-2025",
+            "test_name": "ELECTROLYTES SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "SODIUM",
+                    "result": "140",
+                    "units": "meq/L.",
+                    "range": "130-143"
+                },
+                {
+                    "slno": "2",
+                    "test": "POTASSIUM",
+                    "result": "4.1",
+                    "units": "meq/L",
+                    "range": "3.50-5"
+                },
+                {
+                    "slno": "3",
+                    "test": "CHLORIDE",
+                    "result": "103",
+                    "units": "meq/L.",
+                    "range": "93-110"
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "24-MAR-2025",
+            "test_name": "UREA SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "SERUM UREA",
+                    "result": "23.48",
+                    "units": "mg/dl.",
+                    "range": "10-50  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "24-MAR-2025",
+            "test_name": "CREATININE SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "CREATININE",
+                    "result": "0.97",
+                    "units": "mg/dl.",
+                    "range": "Premature Neonates : 0.29-1.04Full Term Neonates : 0.24-0.852-12 Month : 0.17-0.421-3 yrs    : 0.24-0.413-5 yrs    : 0.31-0.475-7 yrs    : 0.32-0.597-9 yrs    : 0.40-0.609-11  yrs : 0.39-0.7311-13 yrs : 0.53-0.7913-15 yrs : 0.57-0.87Adult Male         : 0.7-1.3Adult Female     : 0.5-1.0  mg/dl."
+                }
+            ]
         }
-
     ]
 }
