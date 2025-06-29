@@ -1,0 +1,10 @@
+base_url: "http://115.241.194.20/LIS/Reports/Patient_Report.aspx/{id}"
+check_every_sec: 600
+timezone: "Asia/Kolkata"
+patient_list_file: "patients.txt"
+
+whatsapp:
+  enabled: true
+  recipient: "Kamalika Ind"
+  template: "Update detected for patient {id} at {time}"
+  script: "notifier/send_whatsapp.js"

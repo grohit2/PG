@@ -470,6 +470,20 @@
             ]
         },
         {
+            "bill_no": "5207041548",
+            "bill_date": "21-MAR-2025",
+            "test_name": "Homocysteine",
+            "status": "No Tests found for this Bill No.",
+            "details": []
+        },
+        {
+            "bill_no": "",
+            "bill_date": "21-MAR-2025",
+            "test_name": "LIPOPROTEIN-A",
+            "status": "No Tests found for this Bill No.",
+            "details": []
+        },
+        {
             "bill_no": "5207048292",
             "bill_date": "24-MAR-2025",
             "test_name": "ELECTROLYTES SERUM",
@@ -523,6 +537,469 @@
                     "slno": "1",
                     "test": "CREATININE",
                     "result": "0.97",
+                    "units": "mg/dl.",
+                    "range": "Premature Neonates : 0.29-1.04Full Term Neonates : 0.24-0.852-12 Month : 0.17-0.421-3 yrs    : 0.24-0.413-5 yrs    : 0.31-0.475-7 yrs    : 0.32-0.597-9 yrs    : 0.40-0.609-11  yrs : 0.39-0.7311-13 yrs : 0.53-0.7913-15 yrs : 0.57-0.87Adult Male         : 0.7-1.3Adult Female     : 0.5-1.0  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "5207051323",
+            "bill_date": "26-MAR-2025",
+            "test_name": "UREA SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "SERUM UREA",
+                    "result": "26.71",
+                    "units": "mg/dl.",
+                    "range": "10-50  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "26-MAR-2025",
+            "test_name": "CREATININE SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "CREATININE",
+                    "result": "0.99",
+                    "units": "mg/dl.",
+                    "range": "Premature Neonates : 0.29-1.04Full Term Neonates : 0.24-0.852-12 Month : 0.17-0.421-3 yrs    : 0.24-0.413-5 yrs    : 0.31-0.475-7 yrs    : 0.32-0.597-9 yrs    : 0.40-0.609-11  yrs : 0.39-0.7311-13 yrs : 0.53-0.7913-15 yrs : 0.57-0.87Adult Male         : 0.7-1.3Adult Female     : 0.5-1.0  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "5207054710",
+            "bill_date": "28-MAR-2025",
+            "test_name": "CBP ( HB,TC,DC,PLATELETS COUNT)",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "TOTAL COUNT WBC",
+                    "result": "12,100",
+                    "units": "Cells/cumm",
+                    "range": "4000-11000  Cells/cumm"
+                },
+                {
+                    "slno": "2",
+                    "test": "NEUTROPHILS",
+                    "result": "76",
+                    "units": "%",
+                    "range": "40-75  %"
+                },
+                {
+                    "slno": "3",
+                    "test": "LYMPHOCYTES",
+                    "result": "17",
+                    "units": "%",
+                    "range": "20-40  %"
+                },
+                {
+                    "slno": "4",
+                    "test": "MONOCYTES",
+                    "result": "6",
+                    "units": "%",
+                    "range": "2-8  %"
+                },
+                {
+                    "slno": "5",
+                    "test": "EOSINOPHILS",
+                    "result": "1",
+                    "units": "%",
+                    "range": "1-6  %"
+                },
+                {
+                    "slno": "6",
+                    "test": "BASOPHILS",
+                    "result": "0",
+                    "units": "%",
+                    "range": "0-1  %"
+                },
+                {
+                    "slno": "7",
+                    "test": "RBC COUNT",
+                    "result": "4.92",
+                    "units": "mill/cumm",
+                    "range": "F3.5-5M4.3-5.9  mill/cumm"
+                },
+                {
+                    "slno": "8",
+                    "test": "HAEMOGLOBIN",
+                    "result": "13.9",
+                    "units": "gm/dl",
+                    "range": "F12-15M13.6-17.2  gm/dl"
+                },
+                {
+                    "slno": "9",
+                    "test": "PCV",
+                    "result": "42",
+                    "units": "vol%",
+                    "range": "F38-47M40-54  vol%"
+                },
+                {
+                    "slno": "10",
+                    "test": "MCV",
+                    "result": "85",
+                    "units": "Fl",
+                    "range": "80-100  Fl"
+                },
+                {
+                    "slno": "11",
+                    "test": "PLATELET COUNT",
+                    "result": "1,85,000",
+                    "units": "Per cumm",
+                    "range": "150000-400000  Per cumm"
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "28-MAR-2025",
+            "test_name": "ELECTROLYTES SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "SODIUM",
+                    "result": "143",
+                    "units": "meq/L.",
+                    "range": "130-143"
+                },
+                {
+                    "slno": "2",
+                    "test": "POTASSIUM",
+                    "result": "3.9",
+                    "units": "meq/L",
+                    "range": "3.50-5"
+                },
+                {
+                    "slno": "3",
+                    "test": "CHLORIDE",
+                    "result": "107",
+                    "units": "meq/L.",
+                    "range": "93-110"
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "28-MAR-2025",
+            "test_name": "UREA SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "SERUM UREA",
+                    "result": "25.87",
+                    "units": "mg/dl.",
+                    "range": "10-50  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "28-MAR-2025",
+            "test_name": "CREATININE SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "CREATININE",
+                    "result": "0.89",
+                    "units": "mg/dl.",
+                    "range": "Premature Neonates : 0.29-1.04Full Term Neonates : 0.24-0.852-12 Month : 0.17-0.421-3 yrs    : 0.24-0.413-5 yrs    : 0.31-0.475-7 yrs    : 0.32-0.597-9 yrs    : 0.40-0.609-11  yrs : 0.39-0.7311-13 yrs : 0.53-0.7913-15 yrs : 0.57-0.87Adult Male         : 0.7-1.3Adult Female     : 0.5-1.0  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "202504040578",
+            "bill_date": "04-APR-2025",
+            "test_name": "CBP ( HB,TC,DC,PLATELETS COUNT)",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "TOTAL COUNT WBC",
+                    "result": "11,600",
+                    "units": "Cells/cumm",
+                    "range": "4000-11000  Cells/cumm"
+                },
+                {
+                    "slno": "2",
+                    "test": "NEUTROPHILS",
+                    "result": "68",
+                    "units": "%",
+                    "range": "40-75  %"
+                },
+                {
+                    "slno": "3",
+                    "test": "LYMPHOCYTES",
+                    "result": "22",
+                    "units": "%",
+                    "range": "20-40  %"
+                },
+                {
+                    "slno": "4",
+                    "test": "MONOCYTES",
+                    "result": "7",
+                    "units": "%",
+                    "range": "2-8  %"
+                },
+                {
+                    "slno": "5",
+                    "test": "EOSINOPHILS",
+                    "result": "3",
+                    "units": "%",
+                    "range": "1-6  %"
+                },
+                {
+                    "slno": "6",
+                    "test": "BASOPHILS",
+                    "result": "0",
+                    "units": "%",
+                    "range": "0-1  %"
+                },
+                {
+                    "slno": "7",
+                    "test": "RBC COUNT",
+                    "result": "5.05",
+                    "units": "mill/cumm",
+                    "range": "F3.5-5M4.3-5.9  mill/cumm"
+                },
+                {
+                    "slno": "8",
+                    "test": "HAEMOGLOBIN",
+                    "result": "14.2",
+                    "units": "gm/dl",
+                    "range": "F12-15M13.6-17.2  gm/dl"
+                },
+                {
+                    "slno": "9",
+                    "test": "PCV",
+                    "result": "43",
+                    "units": "vol%",
+                    "range": "F38-47M40-54  vol%"
+                },
+                {
+                    "slno": "10",
+                    "test": "MCV",
+                    "result": "85",
+                    "units": "Fl",
+                    "range": "80-100  Fl"
+                },
+                {
+                    "slno": "11",
+                    "test": "PLATELET COUNT",
+                    "result": "2,63,000",
+                    "units": "Per cumm",
+                    "range": "150000-400000  Per cumm"
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "04-APR-2025",
+            "test_name": "ELECTROLYTES SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "SODIUM",
+                    "result": "139",
+                    "units": "meq/L.",
+                    "range": "130-143"
+                },
+                {
+                    "slno": "2",
+                    "test": "POTASSIUM",
+                    "result": "4.2",
+                    "units": "meq/L",
+                    "range": "3.50-5"
+                },
+                {
+                    "slno": "3",
+                    "test": "CHLORIDE",
+                    "result": "103",
+                    "units": "meq/L.",
+                    "range": "93-110"
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "04-APR-2025",
+            "test_name": "RANDOM PLASMA GLUCOSE",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "RANDOM PLASMA GLUCOSE",
+                    "result": "74.41",
+                    "units": "mg/dl",
+                    "range": "80-140"
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "04-APR-2025",
+            "test_name": "UREA SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "SERUM UREA",
+                    "result": "21.42",
+                    "units": "mg/dl.",
+                    "range": "10-50  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "04-APR-2025",
+            "test_name": "CREATININE SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "CREATININE",
+                    "result": "1.05",
+                    "units": "mg/dl.",
+                    "range": "Premature Neonates : 0.29-1.04Full Term Neonates : 0.24-0.852-12 Month : 0.17-0.421-3 yrs    : 0.24-0.413-5 yrs    : 0.31-0.475-7 yrs    : 0.32-0.597-9 yrs    : 0.40-0.609-11  yrs : 0.39-0.7311-13 yrs : 0.53-0.7913-15 yrs : 0.57-0.87Adult Male         : 0.7-1.3Adult Female     : 0.5-1.0  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "202505020587",
+            "bill_date": "02-MAY-2025",
+            "test_name": "CBP ( HB,TC,DC,PLATELETS COUNT)",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "TOTAL COUNT WBC",
+                    "result": "13,600",
+                    "units": "Cells/cumm",
+                    "range": "4000-11000  Cells/cumm"
+                },
+                {
+                    "slno": "2",
+                    "test": "NEUTROPHILS",
+                    "result": "68",
+                    "units": "%",
+                    "range": "40-75  %"
+                },
+                {
+                    "slno": "3",
+                    "test": "LYMPHOCYTES",
+                    "result": "20",
+                    "units": "%",
+                    "range": "20-40  %"
+                },
+                {
+                    "slno": "4",
+                    "test": "MONOCYTES",
+                    "result": "7",
+                    "units": "%",
+                    "range": "2-8  %"
+                },
+                {
+                    "slno": "5",
+                    "test": "EOSINOPHILS",
+                    "result": "5",
+                    "units": "%",
+                    "range": "1-6  %"
+                },
+                {
+                    "slno": "6",
+                    "test": "BASOPHILS",
+                    "result": "0",
+                    "units": "%",
+                    "range": "0-1  %"
+                },
+                {
+                    "slno": "7",
+                    "test": "RBC COUNT",
+                    "result": "4.96",
+                    "units": "mill/cumm",
+                    "range": "F3.5-5M4.3-5.9  mill/cumm"
+                },
+                {
+                    "slno": "8",
+                    "test": "HAEMOGLOBIN",
+                    "result": "14.0",
+                    "units": "gm/dl",
+                    "range": "F12-15M13.6-17.2  gm/dl"
+                },
+                {
+                    "slno": "9",
+                    "test": "PCV",
+                    "result": "42",
+                    "units": "vol%",
+                    "range": "F38-47M40-54  vol%"
+                },
+                {
+                    "slno": "10",
+                    "test": "MCV",
+                    "result": "84",
+                    "units": "Fl",
+                    "range": "80-100  Fl"
+                },
+                {
+                    "slno": "11",
+                    "test": "PLATELET COUNT",
+                    "result": "2,22,000",
+                    "units": "Per cumm",
+                    "range": "150000-400000  Per cumm"
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "02-MAY-2025",
+            "test_name": "RANDOM PLASMA GLUCOSE",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "RANDOM PLASMA GLUCOSE",
+                    "result": "72.54",
+                    "units": "mg/dl",
+                    "range": "80-140"
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "02-MAY-2025",
+            "test_name": "UREA SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "SERUM UREA",
+                    "result": "29.00",
+                    "units": "mg/dl.",
+                    "range": "10-50  mg/dl."
+                }
+            ]
+        },
+        {
+            "bill_no": "",
+            "bill_date": "02-MAY-2025",
+            "test_name": "CREATININE SERUM",
+            "status": "1",
+            "details": [
+                {
+                    "slno": "1",
+                    "test": "CREATININE",
+                    "result": "1.05",
                     "units": "mg/dl.",
                     "range": "Premature Neonates : 0.29-1.04Full Term Neonates : 0.24-0.852-12 Month : 0.17-0.421-3 yrs    : 0.24-0.413-5 yrs    : 0.31-0.475-7 yrs    : 0.32-0.597-9 yrs    : 0.40-0.609-11  yrs : 0.39-0.7311-13 yrs : 0.53-0.7913-15 yrs : 0.57-0.87Adult Male         : 0.7-1.3Adult Female     : 0.5-1.0  mg/dl."
                 }

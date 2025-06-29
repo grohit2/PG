@@ -1,0 +1,125 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Narayana General Hospital :: Patient Lab Reports
+</title>
+    <script language="javascript" type="text/javascript">
+    function ShowValues(Billno,Prno)
+    {
+       //alert(Billno);alert(Prno);
+        window.open('../Patient_Report_Sub.aspx/'+Billno+','+Prno,'i','width=700px,height=500px,resizable=yes,scrollbars=yes');
+          // window.open('Patient_Report_Sub.aspx/'+Billno+','+Prno,'i','width=700px,height=500px,resizable=yes,scrollbars=yes');
+    }
+    function ExpCol(HidObj,PnlObj)
+    {
+        var hidVal=document.getElementById(HidObj).value;
+        if(hidVal=="0")
+        {
+            document.getElementById(HidObj).value=1;
+            document.getElementById(PnlObj).style.display='block';
+        }
+        else if(hidVal=="1")
+        {
+            document.getElementById(HidObj).value=0;
+            document.getElementById(PnlObj).style.display='none';
+        }
+    }
+    function MouseOver(Obj)
+    {
+        document.getElementById(Obj.id).style.cursor='hand';
+        document.getElementById(Obj.id).style.color='blue';
+        document.getElementById(Obj.id).style.fontWeight='bold';
+    }
+    function MouseOut(Obj)
+    {
+        document.getElementById(Obj.id).style.cursor='default';
+        document.getElementById(Obj.id).style.color='black';
+        document.getElementById(Obj.id).style.fontWeight='normal';
+    }
+    function FormLoad()
+    {
+        var browserName=navigator.appName;
+        if(browserName=="Netscape")
+            document.getElementById("fldset").className="moz_fieldset";
+    }
+    </script>
+    <style type="text/css">
+    .moz_fieldset
+    {
+        -moz-border-radius-bottomleft: 7px;
+        -moz-border-radius-bottomright: 7px;
+        -moz-border-radius-topleft: 7px;
+        -moz-border-radius-topright: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+        border-color:#f5f5f5;
+    }
+    .Tabletd
+    {
+        border-right: whitesmoke 1px solid; 
+        border-top: whitesmoke 1px solid;
+        border-left: whitesmoke 1px solid; 
+        border-bottom: whitesmoke 1px solid;
+    }
+    </style>
+<link href="../../App_Themes/BlueTheme/BlueStyleSheet.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/BlueTheme/StyleSheet.css" type="text/css" rel="stylesheet" /></head>
+<body onload="FormLoad()" style="font-family:Verdana">
+    <form method="post" action="./20250335199" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTk0MzA3OTM0NA9kFgICAw9kFgQCAQ8PFgIeBFRleHRlZGQCAw9kFgoCAw8PFgIfAAULMjAyNTAzMzUxOTlkZAIHDw8WAh8ABQFYZGQCCw8PFgQfAGUeB1Rvb2xUaXBlZGQCDw8PFgIfAGVkZAIRD2QWAgIBDzwrABEDAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudGZkARAWABYAFgAMFCsAAGQYAQUFR1ZpZXcPPCsADAEIZmSQH2dJLyJcAEXEuTmoAhJT3rlAKK3z/V9qe2m0uG9peg==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BF795154" />
+        <div align="center" style="text-align: center;">
+            <span id="lblErrMsg"><font face="Calibri" color="Red"></font></span><br />
+            <div id="PnlMain" align="center">
+	
+                <center>
+                    <fieldset id="fldset" style="width: 500px; text-align: center; richness: 10">
+                        <legend style="color: #4169e1; font-family: Verdana; font-size: 13px; text-align: left">
+                            Personal Details</legend>
+                        <table align="center" style="text-align: center" width="400">
+                            <tr>
+                                <td align="left" valign="top" style="width: 100px">
+                                    <span id="Label1" style="display:inline-block;"><b><font face="Calibri" color="SteelBlue" size="3">Registration No.</font></b></span></td>
+                                <td align="left" valign="bottom" colspan="3">
+                                    <span id="lblRegno" style="display:inline-block;"><font face="Calibri" size="2">20250335199</font></span></td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="width: 100px">
+                                    <span id="Label2" style="display:inline-block;"><b><font face="Calibri" color="SteelBlue" size="3">Patient Name</font></b></span></td>
+                                <td align="left" valign="bottom" colspan="3">
+                                    <span id="lblName" style="display:inline-block;"><font face="Calibri" size="2">X</font></span></td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="width: 100px">
+                                    <span id="Label3" style="display:inline-block;"><b><font face="Calibri" color="SteelBlue" size="3">Age</font></b></span></td>
+                                <td align="left" valign="bottom" style="width: 50px">
+                                    <span id="lblAge" style="display:inline-block;"><font face="Calibri" size="2"></font></span></td>
+                                <td align="right" valign="top" style="width: 75px">
+                                    <span id="Label5" style="display:inline-block;"><b><font face="Calibri" color="SteelBlue" size="3">Sex</font></b></span></td>
+                                <td align="left" valign="bottom">
+                                    <span id="lblSex" style="display:inline-block;"><font face="Calibri" size="2"></font></span></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <div id="PnlGrid" align="center">
+		
+                        <br />
+                        <div>
+			<table cellspacing="0" align="Center" rules="all" bordercolor="WhiteSmoke" id="GView" width="750">
+				<tr>
+					<td colspan="4"><font face="Calibri">
+                                <span id="GView_lblEmptyDRow"><b><font face="Calibri" color="Red">No Bill Nos found for this Patient</font></b></span>
+                            </font></td>
+				</tr>
+			</table>
+		</div>
+                    
+	</div>
+                </center>
+            
+</div>
+        </div>
+    </form>
+</body>
+</html>
