@@ -1,0 +1,37 @@
+# ───────────────────────────── Python ─────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# ───────────────────────────── Node / notifier ────────────────────
+# 1️⃣  ignore the heavy / private stuff first
+node_modules/
+notifier/node_modules/
+notifier/.wwebjs_auth/
+notifier/.wwebjs_cache/
+
+# 2️⃣  ignore _everything_ inside notifier …
+notifier/*
+
+# 3️⃣  … then whitelist the three files we DO want
+!notifier/send_whatsapp.js
+!notifier/package.json
+!notifier/package-lock.json
+
+# ─────────────── Patient snapshots & runtime output ──────────────
+patient/
+**/last_hash.txt
+
+# ──────────────────────── Logs & archives ─────────────────────────
+*.log
+*.zip
+*.tar.gz
+
+# ───────────────────── macOS & Editor junk ────────────────────────
+.DS_Store
+.vscode/
